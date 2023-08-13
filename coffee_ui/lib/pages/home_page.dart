@@ -44,15 +44,29 @@ class _HomePageState extends State<HomePage> {
           children: [
             //Find best coffee for you
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 25),
+              padding: const EdgeInsets.symmetric(horizontal: 25.0),
               child: Text(
                 'Find best coffee for you',
                 style: GoogleFonts.bebasNeue(fontSize: 56),
               ),
             ),
 
+            SizedBox(height: 25.0),
+
             //Search bar
-            TextField()
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 25.0),
+              child: TextField(
+                decoration: InputDecoration(
+                  focusedBorder: OutlineInputBorder(
+                      borderSide: BorderSide(color: Colors.grey.shade600)
+                  ),
+                  enabledBorder: OutlineInputBorder(
+                    borderSide: BorderSide(color: Colors.grey.shade600)
+                  ),
+                ),
+              ),
+            ),
 
             //horizontal listview of coffee tiles
           ],
