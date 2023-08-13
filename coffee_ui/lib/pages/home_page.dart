@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -41,9 +42,17 @@ class _HomePageState extends State<HomePage> {
         ),
         body: Column(
           children: [
-            //Find bast coffee for you
+            //Find best coffee for you
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 25),
+              child: Text(
+                'Find best coffee for you',
+                style: GoogleFonts.bebasNeue(fontSize: 56),
+              ),
+            ),
 
             //Search bar
+            TextField()
 
             //horizontal listview of coffee tiles
           ],
