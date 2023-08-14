@@ -75,7 +75,7 @@ class _HomePageState extends State<HomePage> {
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 25.0),
               child: Text(
-                'Find best coffee for you',
+                'Find the best coffee for you',
                 style: GoogleFonts.bebasNeue(fontSize: 56),
               ),
             ),
