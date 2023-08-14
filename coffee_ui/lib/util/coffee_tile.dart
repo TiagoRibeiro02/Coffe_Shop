@@ -49,6 +49,8 @@ class CoffeeTile extends StatelessWidget {
                     style: TextStyle(color: Colors.grey[700]),
                   ),
 
+                  SizedBox(height: 15),
+
                   //Price
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 2.0),
