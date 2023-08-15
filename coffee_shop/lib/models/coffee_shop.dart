@@ -8,11 +8,11 @@ class CoffeeShop extends ChangeNotifier {
     //black coffee
     Coffee(name: 'Long Black', price: '4.10', imagePath: 'assets/black.png'),
     //latte
-    Coffee(name: 'Latte', price: '4.10', imagePath: 'assets/latte.png'),
+    Coffee(name: 'Latte', price: '4.20', imagePath: 'assets/latte.png'),
     //cappuccino
-    Coffee(name: 'Cappuccino', price: '4.10', imagePath: 'assets/cappucino.png'),
+    Coffee(name: 'Cappuccino', price: '3.50', imagePath: 'assets/cappucino.png'),
     //espresso
-    Coffee(name: 'Espresso', price: '4.10', imagePath: 'assets/coffee-cup.png'),
+    Coffee(name: 'Espresso', price: '4.40', imagePath: 'assets/coffee-cup.png'),
   ];
 
   //user cart
