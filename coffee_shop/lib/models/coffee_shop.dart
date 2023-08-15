@@ -19,10 +19,17 @@ class CoffeShop {
   List<Coffee> _userCart = [];
 
   //get coffee list
+  List<Coffee> get coffeShop => _shop;
 
   //get user cart
+  List<Coffee> get userCart => _userCart;
 
   //add item to cart
-
+  void addItemToCart(Coffee coffee){
+    _userCart.add(coffee);
+  }
   //remove item from cart
+  void removeItemCart(Coffee coffee){
+    _userCart.remove(coffee);
+  }
 }
